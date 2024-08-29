@@ -14,12 +14,12 @@ const Header = () => {
         <img src="./logo.png" alt="Logo" width={100} />
 
         <div className={`h-menu ${isMenuOpen ? "open" : ""}`}>
-          <a href="#">Residencies</a>
+          <a href="#">Home</a>
+          <a href="#">Hotels</a>
           <a href="#">About us</a>
-          <a href="#">Contact us</a>
-          <a href="#">Services</a>
+          <a href="#">Available Rooms</a>
           <button className="h-btn">
-            <a href="#">Get Started</a>
+            <a href="#">Contact us</a>
           </button>
         </div>
 
