@@ -1,3 +1,4 @@
+import AboutUs from "./componenets/AboutUs/AboutUs";
 import Header from "./componenets/Header/Header";
 import Hero from "./componenets/Hero/Hero";
 import Hotels from "./componenets/Hotels/Hotels";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Hotels />
       <Rooms />
+      <AboutUs />
     </div>
   );
 }

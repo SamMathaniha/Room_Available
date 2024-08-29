@@ -16,8 +16,8 @@ const Header = () => {
         <div className={`h-menu ${isMenuOpen ? "open" : ""}`}>
           <a href="#">Home</a>
           <a href="#">Our Partners</a>
-          <a href="#">About us</a>
           <a href="#">Available Rooms</a>
+          <a href="#">About us</a>
           <button className="h-btn">
             <a href="#">Contact us</a>
           </button>
