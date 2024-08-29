@@ -1,0 +1,93 @@
+/* General Styles */
+.wrapper {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Left Side Styles */
+  .ContainerleftSide {
+    flex: 1;
+  }
+  
+  .HeroHeader {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .HeroDescription {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .tableheader, .tablebody {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tableheader {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  .tablebody {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+  }
+  
+  /* Right Side Styles */
+  .ContainerrightSide {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ContainerrightSide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .ContainerrightSide {
+      margin-top: 20px;
+    }
+  
+    .tableheader, .tablebody {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
