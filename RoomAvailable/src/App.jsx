@@ -1,6 +1,7 @@
 import Header from "./componenets/Header/Header";
 import Hero from "./componenets/Hero/Hero";
 import Hotels from "./componenets/Hotels/Hotels";
+import Rooms from "./componenets/Rooms/Rooms";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Hotels />
+      <Rooms />
     </div>
   );
 }
