@@ -24,7 +24,7 @@
   .h-menu {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
   
   .h-menu a {
