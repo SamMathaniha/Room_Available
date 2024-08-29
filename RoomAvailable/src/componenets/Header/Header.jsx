@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="h-container">
-        <img src="./logo.png" alt="Logo" width={100} />
+        <img src="./logo1.PNG" alt="Logo" width={130} />
 
         <div className={`h-menu ${isMenuOpen ? "open" : ""}`}>
           <a href="#">Home</a>

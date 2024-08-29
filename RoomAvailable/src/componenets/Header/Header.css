@@ -2,7 +2,7 @@
 .h-wrapper {
     width: 100%;
     padding: 20px 0;
-    background-color: #49c4fd;
+    background-color: #00aeffe1;
   }
   
   .h-container {
@@ -35,7 +35,7 @@
   }
   
   .h-menu a:hover {
-    color: #007bff;
+    color: #ffffff;
   }
   
   /* Button Styles */
