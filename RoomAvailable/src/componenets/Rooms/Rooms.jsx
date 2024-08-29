@@ -15,6 +15,7 @@ const Rooms = () => {
         </div>
 
         <Swiper {...sliderSettings}>
+          <SliderButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className="Room-card">
@@ -41,3 +42,13 @@ const Rooms = () => {
 };
 
 export default Rooms;
+
+const SliderButtons = () => {
+  const swiper = useSwiper();
+  return (
+    <div className="r-button">
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
+    </div>
+  );
+};
