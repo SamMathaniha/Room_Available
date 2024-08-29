@@ -1,3 +1,4 @@
+import Header from "./componenets/Header/Header"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      app
+      <Header />
     </div>
   )
 }

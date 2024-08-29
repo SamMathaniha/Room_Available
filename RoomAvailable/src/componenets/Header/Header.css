@@ -1,0 +1,100 @@
+/* General Styles */
+.h-wrapper {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ed0000;
+  }
+  
+  .h-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .h-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Menu Styles */
+  .h-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .h-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .h-menu a:hover {
+    color: #007bff;
+  }
+  
+  /* Button Styles */
+  .h-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .h-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  /* Hamburger Menu Styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .h-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .h-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #b64747;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+  
+    .h-menu.open {
+        margin-top: 20px;
+        width: 90%;
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
