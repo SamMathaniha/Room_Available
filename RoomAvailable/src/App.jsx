@@ -4,9 +4,9 @@ function App() {
   
 
   return (
-    <>
-     asdsa
-    </>
+    <div className="App">
+      app
+    </div>
   )
 }
 
