@@ -1,0 +1,44 @@
+[
+  {
+    "name": "SHANGRI-LA",
+    "Days": "2",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "../r3.png"
+  },
+  {
+    "name": "ACCOR",
+    "Days": "5",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "../r3.png"
+  },
+  {
+    "name": " Ritz-Carlton",
+    "Days": "1",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "../r3.png"
+  },
+  {
+    "name": "Hilton",
+    "Days": "2",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "../r3.png"
+  },
+  {
+    "name": "HYATT",
+    "Days": "5",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "../r3.png"
+  },
+  {
+    "name": "Fairmont",
+    "Days": "4",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "../r3.png"
+  }
+]

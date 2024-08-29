@@ -1,0 +1,163 @@
+/* Room Wrapper */
+.Room-Wrapper {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Room Container */
+  .Room-Container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Room Header */
+  .room-head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .room-head span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .room-head span:last-child {
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+  }
+  
+  /* Swiper Container */
+  .swiper {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  /* Room Card */
+  .Room-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    width: 280px; /* Adjusted width for smaller card */
+    margin: auto;
+  }
+  
+  .Room-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .Room-card img {
+    width: 100%;
+    height: 150px;
+    max-height: 200px; /* Adjusted to make the image smaller */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  /* Room Price */
+  .r-Price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .r-Price span {
+    font-size: 18px;
+  }
+  
+  /* Primary Text */
+  .primaryText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Secondary Text */
+  .secondaryText {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .Room-card {
+      padding: 10px;
+      width: 250px; /* Adjusted width for smaller screens */
+    }
+  
+    .r-Price {
+      font-size: 16px;
+    }
+  
+    .primaryText {
+      font-size: 14px;
+    }
+  
+    .secondaryText {
+      font-size: 12px;
+    }
+  
+    .Room-card img {
+      max-height: 150px; /* Further reduced image height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Room-card {
+      padding: 8px;
+      width: 200px; /* Further adjusted width for very small screens */
+    }
+  
+    .r-Price {
+      font-size: 14px;
+    }
+  
+    .primaryText {
+      font-size: 12px;
+    }
+  
+    .secondaryText {
+      font-size: 10px;
+    }
+  
+    .Room-card img {
+      max-height: 120px; /* Further reduced image height for very small screens */
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .Room-card {
+      width: 180px; /* Further adjusted width for extra small screens */
+    }
+  
+    .r-Price {
+      font-size: 12px;
+    }
+  
+    .primaryText {
+      font-size: 10px;
+    }
+  
+    .secondaryText {
+      font-size: 8px;
+    }
+  
+    .Room-card img {
+      max-height: 100px; /* Further reduced image height for extra small screens */
+    }
+  }
+  
