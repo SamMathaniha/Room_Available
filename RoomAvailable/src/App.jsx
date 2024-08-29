@@ -1,4 +1,5 @@
 import AboutUs from "./componenets/AboutUs/AboutUs";
+import Footer from "./componenets/Footer/Footer";
 import Header from "./componenets/Header/Header";
 import Hero from "./componenets/Hero/Hero";
 import Hotels from "./componenets/Hotels/Hotels";
@@ -12,6 +13,7 @@ function App() {
       <Hotels />
       <Rooms />
       <AboutUs />
+      <Footer />
     </div>
   );
 }

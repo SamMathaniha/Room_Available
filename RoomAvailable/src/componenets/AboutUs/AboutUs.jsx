@@ -5,11 +5,11 @@ import {
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-  AccordionItemState,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./AboutUs.css";
+import data from "../../assets/utils/accordion";
 
 const AboutUs = () => {
   return (
@@ -22,17 +22,33 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="About-Right">
-            <span className="orangeText">About US</span>
+            <span className="orangeText">About Us</span>
             <br />
             <span className="primaryText">What we Provide to You</span>
             <br />
-            <span className="secondaryText">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-              <br />
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </span>
+
+            <Accordion
+              className="accordion"
+              allowMultipleExpanded={false}
+              preExpanded={[0]}
+            >
+              {data.map((item, i) => (
+                <AccordionItem className="accordionItem" key={i} uuid={i}>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      <div className="flexCenter icon">{item.icon}</div>
+                      <span className="primaryText2">{item.heading}</span>
+                      <div className="flexCenter icon">
+                        <MdOutlineArrowDropDown size={20} />
+                      </div>
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>{item.detail}</p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>

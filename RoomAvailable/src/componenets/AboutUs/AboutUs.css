@@ -1,0 +1,167 @@
+/* AboutUs.css */
+
+.About-wrapper {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .About-cantainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .About-left {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .About-Right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .About-Right .orangeText {
+    color: #ff6f00;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .About-Right .primaryText {
+    color: #102cff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .About-Right .primaryText2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  
+  .About-Right .secondaryText {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  .About-Right .accordion {
+    margin-top: 2px;
+  }
+  
+  .About-Right .accordion .accordionItem {
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .About-Right .accordion .accordionItemHeading {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .About-Right .accordion .accordionItemHeading:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .About-Right .accordion .accordionItemButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .About-Right .accordion .flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .About-Right .accordion .accordionItemPanel {
+    padding: 15px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+  }
+  
+  .About-Right .accordion .accordionItemPanel p {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .About-cantainer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .About-left,
+    .About-Right {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .About-Right .orangeText {
+      font-size: 20px;
+    }
+  
+    .About-Right .primaryText {
+      font-size: 16px;
+    }
+  
+    .About-Right .secondaryText {
+      font-size: 12px;
+    }
+  
+    .About-Right .accordion .accordionItemHeading {
+      padding: 10px;
+    }
+  
+    .About-Right .accordion .accordionItemPanel {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .About-wrapper {
+      padding: 30px 10px;
+    }
+  
+    .About-Right .orangeText {
+      font-size: 18px;
+    }
+  
+    .About-Right .primaryText {
+      font-size: 14px;
+    }
+  
+    .About-Right .secondaryText {
+      font-size: 12px;
+    }
+  
+    .About-Right .accordion .accordionItemHeading {
+      padding: 8px;
+    }
+  
+    .About-Right .accordion .accordionItemPanel {
+      padding: 8px;
+    }
+  }
+  
