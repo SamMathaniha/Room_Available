@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./header.css";
+import ContactModal from "../ContactModal/ContactModal";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,9 +20,15 @@ const Header = () => {
           <a href="#">Our Partners</a>
           <a href="#">Available Rooms</a>
           <a href="#">About us</a>
-          <button className="h-btn">
-            <a href="#">Contact us</a>
+          <button
+            className="h-btn"
+            onClick={() => {
+              setOpenModal(true);
+            }}
+          >
+            Contact us
           </button>
+          {openModal && <ContactModal closeModal={setOpenModal} />}
         </div>
 
         <div className="hamburger" onClick={toggleMenu}>
